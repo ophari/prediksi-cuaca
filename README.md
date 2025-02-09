@@ -26,7 +26,7 @@ https://api.bmkg.go.id/publik/prakiraan-cuaca?adm4={kode_wilayah}
 - `local_datetime` → Waktu lokal (YYYY-MM-DD HH:mm:ss)
 - `t` → Suhu udara (°C)
 - `hu` → Kelembapan udara (%)
-- `weather_desc` → Deskripsi cuaca (dalam bahasa Indonesia)
+- `weather_desc` → Deskripsi cuaca 
 - `ws` → Kecepatan angin (km/jam)
 - `tcc` → Tutupan awan (%)
 
