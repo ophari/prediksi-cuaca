@@ -42,7 +42,6 @@ weather_forecast_project/
 │   ├── fetch_bmkg_data.py   # Mengambil data dari API BMKG
 │── main.py                   # Skrip utama dengan menu interaktif
 │── requirements.txt          # Daftar pustaka yang dibutuhkan
-│── .env                      # File untuk menyimpan API Key (jika diperlukan)
 │── README.md                 # Dokumentasi proyek
 ```
 
