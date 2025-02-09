@@ -30,19 +30,6 @@ https://api.bmkg.go.id/publik/prakiraan-cuaca?adm4={kode_wilayah}
 - `ws` → Kecepatan angin (km/jam)
 - `tcc` → Tutupan awan (%)
 
-**Contoh format `.env`:**
-```
-BMKG_API_KEY=your_api_key_here
-```
-Kemudian, dalam kode Python, Anda dapat mengambil API Key menggunakan pustaka `python-dotenv` seperti berikut:
-```python
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
-API_KEY = os.getenv("BMKG_API_KEY")
-```
-
 ## 🏗️ Struktur Proyek
 ```
 weather_forecast_project/
