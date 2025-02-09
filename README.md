@@ -40,9 +40,9 @@ weather_forecast_project/
 │   ├── train_model.py       # Melatih model Random Forest
 │   ├── predict.py           # Memprediksi suhu menggunakan model
 │   ├── fetch_bmkg_data.py   # Mengambil data dari API BMKG
-│── main.py                   # Skrip utama dengan menu interaktif
-│── requirements.txt          # Daftar pustaka yang dibutuhkan
-│── README.md                 # Dokumentasi proyek
+│── main.py                  # Skrip utama dengan menu interaktif
+│── requirements.txt         # Daftar pustaka yang dibutuhkan
+│── README.md                # Dokumentasi proyek
 ```
 
 ## 🎯 Cara Menggunakan
