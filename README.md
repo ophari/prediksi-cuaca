@@ -100,7 +100,7 @@ Masukkan tutupan awan (%): 60
 - Jika terjadi error, pastikan Anda telah menginstal pustaka menggunakan `pip install -r requirements.txt`.
 - Jika model tidak ditemukan, latih ulang menggunakan opsi **1** di `main.py`.
 - Dataset harus ditempatkan di folder `data/` dengan nama `weather.csv`.
-
+- Jika menggunakan API BMKG dengan API Key, **simpan API Key dalam `.env` dan jangan dicantumkan di README** untuk alasan keamanan.
 
 ## 🤝 Kontribusi
 Silakan fork proyek ini, berikan saran perbaikan, atau tambahkan fitur baru!
@@ -109,4 +109,3 @@ Silakan fork proyek ini, berikan saran perbaikan, atau tambahkan fitur baru!
 📌 **Pembuat:** Muhamad Yusuf
 📅 **Terakhir Diperbarui:** 2025-02-09
 
-#
