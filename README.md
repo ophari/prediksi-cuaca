@@ -30,8 +30,6 @@ https://api.bmkg.go.id/publik/prakiraan-cuaca?adm4={kode_wilayah}
 - `ws` → Kecepatan angin (km/jam)
 - `tcc` → Tutupan awan (%)
 
-Jika API BMKG membutuhkan **API Key**, maka API Key tersebut **sebaiknya disimpan dalam file `.env`** dan tidak dicantumkan di README demi keamanan.
-
 **Contoh format `.env`:**
 ```
 BMKG_API_KEY=your_api_key_here
@@ -100,7 +98,6 @@ Masukkan tutupan awan (%): 60
 - Jika terjadi error, pastikan Anda telah menginstal pustaka menggunakan `pip install -r requirements.txt`.
 - Jika model tidak ditemukan, latih ulang menggunakan opsi **1** di `main.py`.
 - Dataset harus ditempatkan di folder `data/` dengan nama `weather.csv`.
-- Jika menggunakan API BMKG dengan API Key, **simpan API Key dalam `.env` dan jangan dicantumkan di README** untuk alasan keamanan.
 
 ## 🤝 Kontribusi
 Silakan fork proyek ini, berikan saran perbaikan, atau tambahkan fitur baru!
