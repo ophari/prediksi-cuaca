@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("../static/bg-cuaca.jpg") no-repeat center center fixed;
+    background-size: cover;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 70%;
+    max-width: 1000px;
+}
+
+.container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.form-container {
+    width: 50%;
+}
+
+.result-container {
+    width: 50%;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.5);
+    transition: background 0.3s;
+}
+
+input:focus {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Media Query for Tablets */
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        width: 80%;
+    }
+    .form-container, .result-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+    .result-container {
+        font-size: 1em;
+        padding: 15px;
+    }
+    input, button {
+        padding: 8px;
+    }
+}

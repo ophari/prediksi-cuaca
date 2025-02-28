@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediksi Cuaca</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Prediksi Cuaca</h1>
+        <form id="weatherForm">
+            <label>Hari (1-31): <input type="number" id="day" required></label>
+            <label>Bulan (1-12): <input type="number" id="month" required></label>
+            <label>Jam (0-23): <input type="number" id="hour" required></label>
+            <label>Kelembapan (%): <input type="number" id="humidity" required></label>
+            <label>Kecepatan Angin (km/h): <input type="number" id="wind_speed" required></label>
+            <label>Tutupan Awan (%): <input type="number" id="cloud_cover" required></label>
+            <button type="submit">Prediksi</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
