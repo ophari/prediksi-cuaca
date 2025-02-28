@@ -3,7 +3,7 @@ import json
 import os
 
 # Ganti dengan kode wilayah tingkat IV yang sesuai
-KODE_WILAYAH = "36.03.28.1001"  # Contoh kode wilayah kab tangerang, kel.kelapa dua, kec.kelapa dua
+KODE_WILAYAH = "32.02.11.1001"  # Contoh kode wilayah kab tangerang, kel.kelapa dua, kec.kelapa dua
 
 # URL API BMKG
 API_URL = f"https://api.bmkg.go.id/publik/prakiraan-cuaca?adm4={KODE_WILAYAH}"

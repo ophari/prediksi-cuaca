@@ -7,7 +7,7 @@ os.makedirs("data", exist_ok=True)
 
 # Load data JSON
 try:
-    with open("data/weather_data.json", "r", encoding="utf-8") as file:
+    with open("../data/weather_data.json", "r", encoding="utf-8") as file:
         data = json.load(file)
 except FileNotFoundError:
     print("❌ File weather_data.json tidak ditemukan. Jalankan fetch_bmkg_data.py dulu!")
@@ -46,7 +46,7 @@ for waktu_prakiraan in cuaca_data:  # List dalam list
 df = pd.DataFrame(weather_data)
 
 # Simpan ke CSV
-csv_path = "data/weather.csv"
+csv_path = "../data/weather.csv"
 df.to_csv(csv_path, index=False)
 
 print(f"✅ Data cuaca berhasil diproses dan disimpan ke {csv_path}!")
