@@ -79,9 +79,10 @@ button:hover {
     transform: scale(1.05);
 }
 
+/* hasil prediksi */
 #result {
     font-size: 1.2em; 
-    color: #ff5733; /* Ganti dengan warna yang diinginkan */
+    color: #ff5733;  
     font-weight: bold;
     background: rgba(255, 252, 252, 0.865); /* Tambahkan background untuk kejelasan */
     padding: 10px;
